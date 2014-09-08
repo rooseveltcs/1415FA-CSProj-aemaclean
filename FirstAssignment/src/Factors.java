@@ -9,7 +9,7 @@ import java.text.Normalizer;
 public class Factors {
 	public static void main(String[] args) throws IOException { 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        //yay
+        //yay yay
          while(true){
         System.out.print("Enter number 1 to 1OO:  ");
         String s; 
