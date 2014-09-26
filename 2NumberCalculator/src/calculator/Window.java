@@ -143,14 +143,14 @@ public class Window extends JPanel implements ActionListener, KeyListener {
 
         setFocusable(true);
         addKeyListener(this);
-        //   KeyboardFocusManager.getCurrentKeyboardFocusManager().
+       
     }
 
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
         doCommand(command);
     }
-
+    //takes string 
     private void doCommand(String command) {
         if ("clear".equals(command)) {
             tf.setText("");
