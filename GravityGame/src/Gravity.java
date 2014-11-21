@@ -7,7 +7,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
  
 public class Gravity extends JFrame {
     
-    Window window = new Window();
+    Window1 window = new Window1();
 
    public Gravity() {
         add(window);
