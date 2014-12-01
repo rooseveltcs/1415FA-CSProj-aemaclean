@@ -11,7 +11,7 @@ public class Gravity extends JFrame {
 
    public Gravity() {
         add(window);
-        setTitle("Asteroid Feild Domonator");
+        setTitle("Asteroids");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(1200, 800);
         setLocationRelativeTo(null);
